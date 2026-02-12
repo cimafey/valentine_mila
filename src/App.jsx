@@ -75,7 +75,7 @@ export default function Page() {
               onClick={handleNoClick}
               className=" bg-rose-500 hover:bg-rose-600 rounded-lg text-white font-bold py-2 px-4"
             >
-              {noCount === 0 ? "No" : getNoButtonText()}
+              {noCount === 0 ? "Нет" : getNoButtonText()}
             </button>
           </div>
         </>
@@ -89,7 +89,7 @@ const Footer = () => {
   return (
     <a
       className="fixed bottom-2 right-2 backdrop-blur-md opacity-80 hover:opacity-95 border p-1 rounded border-rose-300"
-      href="https://github.com/Xeven777/valentine"
+      href="https://www.instagram.com/cimafey?igsh=MTdqY28ybjJwdmZmaA%3D%3D&utm_source=qr"
       target="__blank"
     >
       Made with{" "}
